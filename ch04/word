@@ -25,3 +25,5 @@ call by value 按值调用
 call by reference 引用调用
 overloading 重载
 overloading resolution 重载解析
+manifest  清单文件
+free-form test 自由文本格式
