@@ -21,3 +21,7 @@ workhorse class 主力类
 implicit 隐式
 explicit 显式
 clone  克隆
+call by value 按值调用
+call by reference 引用调用
+overloading 重载
+overloading resolution 重载解析

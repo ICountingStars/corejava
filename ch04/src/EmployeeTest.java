@@ -3,6 +3,17 @@ import java.util.Objects;
 
 /***
  * 如果需要返回一个可变对象的引用，首先应该对它进行克隆。
+ *
+ * API总结
+ * static <T> void requireNonNull(T obj);
+ * static <T> void requireNonNull(T obj,String message);
+ * static <T> void requireNonNull(T obj,Supplier<String> messageSupplier);
+ * 如果obj==null，抛出NullPointerException而没有消息或给定的消息
+ * static <T> void requireNonNullElse(T obj,T defaultObj);
+ * static <T> void requireNonNullElse(T obj,Supplier<T> defaultSupplier);
+ * 如果obj不为null则返回obj,或者如果obj为null则返回默认对象
+ *
+ *
  * @author jianglinChen
  * @Date 2020/11/29 13:08
  * @since 1.0.0
