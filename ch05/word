@@ -1,0 +1,21 @@
+inheritance 继承
+reflection  反射
+superclass  超类
+base class  基类
+parent class 父类
+subclass    子类
+derived class 派生类
+child class 子类
+override    覆盖
+polymorphism 多态
+dynamic binding 动态绑定
+inheritance hierarchy 继承层次
+inheritance chain  继承链
+is-a  继承
+has-a 聚合
+use-a 依赖
+overloading resolution 重载解析
+static binding 静态绑定
+method table 方法表
+interface 接口
+primitive tyoes 基本类型
