@@ -19,3 +19,6 @@ static binding 静态绑定
 method table 方法表
 interface 接口
 primitive tyoes 基本类型
+type parameter  类型参数
+generic class 泛型类
+wrapper  包装器
