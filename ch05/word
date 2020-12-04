@@ -22,3 +22,6 @@ primitive tyoes 基本类型
 type parameter  类型参数
 generic class 泛型类
 wrapper  包装器
+reflection library 反射库
+reflective 反射
+handler 处理器
