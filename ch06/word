@@ -1,0 +1,10 @@
+interface  接口
+implement  实现
+inner class  内部类
+proxy  代理
+strongly type  强类型
+multiple inheritance  多重继承
+interface evolution  接口演化
+source compatible  源代码兼容
+callback  回调
+comparator  比较器
