@@ -8,3 +8,9 @@ interface evolution  接口演化
 source compatible  源代码兼容
 callback  回调
 comparator  比较器
+functional interface  函数式接口
+supplier  供应者
+method reference  方法引用
+captured  捕获
+effectively final  事实最终变量
+deferred execution  延迟执行
