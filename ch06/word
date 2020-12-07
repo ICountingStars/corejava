@@ -14,3 +14,10 @@ method reference  方法引用
 captured  捕获
 effectively final  事实最终变量
 deferred execution  延迟执行
+anonymous inner class  匿名内部类
+double brace initialization  双括号初始化
+nested class 嵌套类（静态内部类）
+invocation handler  调用处理器
+class loader  类加载器
+
+
