@@ -1,0 +1,13 @@
+exception handing 异常处理
+throw 抛出
+exception handler 异常处理器
+unchecked  非受查异常
+checked  受查异常
+exception specification 异常规范
+stack trace 堆栈轨迹
+class loader 类加载器
+precondition 前置条件
+global logger 全局日志记录器
+industrial-strength 企业级日志
+resource bundle 资源包
+logging proxy 日志代理

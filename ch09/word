@@ -1,0 +1,26 @@
+Data Structure 数据结构
+interface 接口
+implementation 实现
+queue 队列
+ordered collection 有序集合
+random access 随机访问
+set 集
+linked list 链表
+link 连接
+doubly linked 双向链接
+hashtable 散列表
+hashcode 散列码
+bucket 桶
+hash collision 散列冲突
+rehashed  再散列
+load factor 装填因子
+red-black tree 红黑树
+sorted collection 有序集合
+deque 双端队列
+priority queue 优先队列
+heap 堆
+stack 栈
+map 映射
+weak reference 弱引用
+subrange 子范围
+unmodifiable view 不可修改视图

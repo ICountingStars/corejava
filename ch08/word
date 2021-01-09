@@ -1,0 +1,16 @@
+generic programming  泛型程序设计
+type parameter 类型参数
+wildcard type 通配符类型
+generic class 泛型类
+bound 限定
+bounding type 限定类型
+subtype 子类型
+raw type 原始类型
+erased 擦除
+tagging 标签
+bridge method 桥方法
+covariant return type  有协变的返回类型
+annotation  注解
+wrapper type 包装器类型
+pair 组
+supertype bound 超类型限定
