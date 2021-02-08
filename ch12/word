@@ -2,3 +2,4 @@ multitasking  多任务
 thread 线程
 multithreaded 多线程
 race condition 竞态条件
+condition variable 条件变量
