@@ -7,3 +7,6 @@ wait set 等待集
 deadlock 死锁
 client-side locking 客户端锁定
 monitor 监视器
+event dispatch thread 事件分配线程
+blocking queue 阻塞队列
+weakly consistent 弱一致性
