@@ -1,30 +1,27 @@
 package textFile;
 
 import java.lang.reflect.Array;
-import java.lang.reflect.Field;
 import java.util.Arrays;
 
 /**
- * @author jianglinChen
- * @date 2021/1/10
+ * TODO
+ *
+ * @author chenjianglin
+ * @date 2021/6/26
  * @since 1.0.0
- */
-public class TextFileTest {
-    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-
-        Employee harry = new Employee("Harry Hacker", 50000, 1989, 10, 1);
-        Class<? extends Employee> cl = harry.getClass();
-        Field f = cl.getDeclaredField("name");
-        System.out.println(f);
-        f.setAccessible(true);
-        Object v = f.get(harry);
-        System.out.println(v);
-
+ **/
+public class CopyOfTest {
+    public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};
-
         a = (int[]) goodCopyOf(a, 10);
-        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(a)); //输出: [1, 2, 3, 4, 5, 0, 0, 0, 0, 0]
 
+        String[] s = {"Tom", "Jerry", "Jack", "Rose"};
+        s = (String[]) goodCopyOf(s, 8);
+        System.out.println(Arrays.toString(s)); // 输出: [Tom, Jerry, Jack, Rose, null, null, null, null]
+
+        // throw java.lang.ClassCastException because  [Ljava.lang.Object; cannot be cast to [Ljava.lang.String
+        s = (String[]) badCopyOf(s, 8);
     }
 
     public static Object[] badCopyOf(Object[] a, int newLength) {
@@ -43,11 +40,5 @@ public class TextFileTest {
         Object newArray = Array.newInstance(componentType, newLength);
         System.arraycopy(a, 0, newArray, 0, Math.min(length, newLength));
         return newArray;
-    }
-}
-
-class A {
-    public static Boolean valueOf(boolean b) {
-        return b ? Boolean.TRUE : Boolean.FALSE;
     }
 }

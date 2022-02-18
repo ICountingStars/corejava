@@ -10,3 +10,5 @@ monitor 监视器
 event dispatch thread 事件分配线程
 blocking queue 阻塞队列
 weakly consistent 弱一致性
+parallelism threshold 参数化阈值
+thread pool 线程池
